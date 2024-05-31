@@ -1,0 +1,110 @@
+.homeimg{
+    margin-top: 16px;
+    margin-right: 7px;
+    height: 300px;
+    width: 350px;
+    border-radius: 27% 73% 34% 66% / 40% 26% 74% 60% ;
+    
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    background-color:#FAEAFF;
+    padding: 10px;
+}
+.para-detail{
+    width: 50%;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.about-img{
+   
+    margin-left: 12px;
+    height: 200px;
+    width: 250px;
+    border-radius: 50% ;
+    box-shadow: 10px 10px 15px ;
+}
+.about1{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 250px;
+}
+.about-detail{
+ 
+    font-size: 1.3rem;
+    width: 60%;
+   float: inline-end;
+   margin-right: 10px;
+   font-weight: 500;
+}
+#home-heading1{
+    font-size: 3rem;
+    transition:  1s ease-in-out linear;
+}
+#home-heading1:hover{
+    transform: translateY(-4px)
+}
+
+body.dark-mode .about-default-background{
+    background-color: #3e4451;
+ }
+ body.dark-mode .home{
+    display: flex;
+    justify-content: space-around;
+    background-color:#3e4451;
+    padding: 10px;
+}
+@media (max-width: 546px){
+    .homeimg{
+        display: none;
+        height: 100%;
+        width: 100%;
+        border-radius: 27% 73% 34% 66% / 40% 26% 74% 60% ;
+        
+    }
+    body.dark-mode .home{
+        display: flex;
+       flex-direction: column-reverse;
+        background-color:#3e4451;;
+        width: 100%;
+    }
+    .home{
+        display: flex;
+       flex-direction: column-reverse;
+        background-color:#FAEAFF;
+        width: 100%;
+    }
+    .para-detail{
+        width: auto;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .about-img{
+        height: 85%;
+        width: 85%;
+        border-radius: 50% ;
+        padding: 7px;
+    box-shadow: 10px 10px 15px ;
+        
+    }
+    .about1{
+       display: grid;
+      grid-template-columns: auto;
+       height: auto;
+       width: 100%;
+    }
+    .about-detail{
+        font-weight: 500;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1.3rem;
+        width: auto
+       
+      
+    }
+}
+
+
+
