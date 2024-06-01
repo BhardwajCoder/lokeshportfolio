@@ -15,9 +15,11 @@ footer {
   }
   
   .footer-photo {
-    border-radius: 50%;
-    width: 100px;
-    margin-bottom: 10px;
+    height: 85%;
+    width: 85%;
+    border-radius: 50% ;
+    padding: 7px;
+box-shadow: 10px 10px 15px ;
   }
   
   .footer-column h4 {
@@ -73,6 +75,12 @@ footer {
     .footer-column  {
       color: #1ABC9C;
       margin-top: 10px;
+    }
+    .footer-photo{
+      display: none;
+    }
+    .footer-text{
+      display: none;
     }
   }
  
