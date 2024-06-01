@@ -14,13 +14,7 @@ footer {
     margin: 10px;
   }
   
-  .footer-photo {
-    height: 85%;
-    width: 85%;
-    border-radius: 50% ;
-    padding: 7px;
-box-shadow: 10px 10px 15px ;
-  }
+
   
   .footer-column h4 {
     color: #1ABC9C;
@@ -67,6 +61,7 @@ box-shadow: 10px 10px 15px ;
     padding-top: 20px;
     margin-top: 20px;
   }
+  
   @media (max-width: 576px) {
     .footer-div{
       display: flex;
@@ -76,12 +71,7 @@ box-shadow: 10px 10px 15px ;
       color: #1ABC9C;
       margin-top: 10px;
     }
-    .footer-photo{
-      display: none;
-    }
-    .footer-text{
-      display: none;
-    }
+   
   }
  
     

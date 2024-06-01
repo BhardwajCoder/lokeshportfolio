@@ -5,11 +5,7 @@ const Footer = () => {
         <>
         <footer>
         <div className="container footer-div">
-          <div className="footer-column ">
-            <h4 className='footer-text'>About Me</h4>
-            <img src="/images/WhatsApp Image 2024-05-29 at 3.51.29 PM.jpeg" alt="Your " className="footer-photo "/>
-            <p className='my-3 footer-text'>Hi, I'm Lokesh Bhardwaj, a passionate web developer with a love for creating stunning and functional websites.</p>
-          </div>
+        
           <div className="footer-column">
             <h4>Navigation</h4>
             <ul >
