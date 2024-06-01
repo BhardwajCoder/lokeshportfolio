@@ -25,7 +25,8 @@ const Home =() => {
              <img  className='about-img' src="/images/WhatsApp Image 2024-05-29 at 3.51.29 PM.jpeg" alt="" />
                 </div>
                 <div>
-                    <p className='about-detail'>Hii My Name is Lokesh Bardwaj i am a frontend developer who have backend knowledge also i have experience of 6 months in web dev also i created some projects like Blog app and Landing page for client.</p>
+                    <p className='about-detail'>Hii My Name is Lokesh Bhardwaj and i am a frontend developer who have backend knowledge also i have experience of 6 months in web dev.I created some projects like Blog app and Landing page for clients.you can check my projects in my project section.</p>
+                    
                     
 
                    
